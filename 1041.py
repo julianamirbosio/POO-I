@@ -1,6 +1,4 @@
-x, y= input().split 
-x = float(x)
-y = float(y)
+x, y= list(map(float, input().split()))
 
 if x == 0 and y == 0:
     print("Origem")
