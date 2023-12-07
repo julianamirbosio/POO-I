@@ -1,0 +1,5 @@
+X = input()
+Y = input()
+X = float(X)
+Y = float(Y)
+print("%.3f" % (X/Y), "km/l")
